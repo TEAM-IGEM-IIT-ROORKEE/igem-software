@@ -10,7 +10,7 @@
     <meta name="author" content="" />
     <link rel="icon" href="assets/icon/favicon.ico" />
 
-    <title>iGEM IIT Roorkee</title>
+    <title>Tailscout - iGEM IIT Roorkee</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
@@ -28,17 +28,13 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand nav-logo" href="#">
           <img
-            src="assets/icon/igem_illustration.png"
+            src="assets/icon/igem.png"
             alt="iGEM Logo"
             class="nav-logo-image"
           />
-          <img
-            src="assets/icon/igem_text.png"
-            alt="iGEM Logo"
-            class="nav-logo"
-          />
+          <div>TailScout</div>
         </a>
         <button
           class="navbar-toggler"
@@ -81,15 +77,17 @@
     <main role="main" class="main">
       <div class="hero-section bg-blur-light">
         <div class="hero-left">
-          <div class="hero-title">Lorem Ipsum</div>
+          <div class="hero-title">TailScout</div>
           <div class="hero-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco.
+            TailScout is made with a purpose to create novel Engineered tail
+            proteins, It is first of its kind web application developed to
+            combat the menace created by the Multi-Drug Resistant pathogens. It
+            will allow you to detect or create different tails and thus creates
+            engineered R-type pyocins with varying spectra of killing.
           </div>
           <div class="hero-buttons">
             <button type="button" class="btn btn-primary btn-lg">
-              <i class="fas fa-bacterium"></i> Learn More
+              <i class="fas fa-bacterium"></i> Start Modelling
             </button>
             <button type="button" class="btn btn-success btn-lg">
               <i class="fab fa-github"></i> Contribute
@@ -123,65 +121,52 @@
         <div class="section-title">Get Started</div>
         <div class="row feature-row">
           <div class="col-lg-4 feature-box">
+            <div class="feature-step">1</div>
             <img
               src="assets/images/virus.svg"
               alt="Generic placeholder image"
               width="140"
               height="140"
             />
-            <h2>Heading</h2>
+            <h2>Gene Detection</h2>
             <p>
-              Donec sed odio dui. Etiam porta sem malesuada magna mollis
-              euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
-              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-              Praesent commodo cursus magna.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button"
-                >View details &raquo;</a
-              >
+              Gene detection is a unique algorithm which helps the program in
+              searching for the most lytic phage tail from a pool of tail fibers
+              compiled using genome databases of Bacteriophages.
             </p>
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4 feature-box">
+            <div class="feature-step">2</div>
             <img
               src="assets/images/dna.svg"
               alt="Generic placeholder image"
               width="140"
               height="140"
             />
-            <h2>Heading</h2>
+            <h2>Multiple Sequence Alignment</h2>
             <p>
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-              eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
-              amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-              mauris condimentum nibh.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button"
-                >View details &raquo;</a
-              >
+              This feature will help you in performing sequence alignment of all
+              the bacteriophages of the particular host bacteria so as to find
+              the region responsible for lytic activity of the particular phage.
+              This will in the end give you the sequence of the engineered
+              protein.
             </p>
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4 feature-box">
+            <div class="feature-step">3</div>
             <img
               src="assets/images/bacterium.svg"
               alt="Generic placeholder image"
               width="140"
               height="140"
             />
-            <h2>Heading</h2>
+            <h2>Secondary Protein Structure Prediction</h2>
             <p>
-              Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
-              egestas eget quam. Vestibulum id ligula porta felis euismod
-              semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-              condimentum nibh, ut fermentum massa justo sit amet risus.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button"
-                >View details &raquo;</a
-              >
+              Secondary structure protein prediction is one of most inportant
+              process in the program by which the engineered protein structure
+              is predicted using the predifeined Jnet algorithm of Jpred.
             </p>
           </div>
           <!-- /.col-lg-4 -->
@@ -294,7 +279,6 @@
     </script>
     <script src="assets/js/bootstrap/popper.min.js"></script>
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
